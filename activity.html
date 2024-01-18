@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="activity.css" />
+
+    <script defer src="main.js"></script>
+    <script defer src="activity.js"></script>
+  </head>
+  <body>
+    <!--Hamburger div-->
+    <div class="hamburger-div">
+      <a class="home" href="index.html">Home</a>
+      <a class="about" href="about.html">About Me</a>
+
+      <a class="activity" href="activity.html">Activity</a>
+      <a class="blog" href="blog.html">Mini Blog</a>
+
+      <img id="ham-icon" src="img/hamb.png" alt="Hamburger icon" width="30" />
+    </div>
+
+    <!--Display div-->
+    <div class="display-div">
+      <p class="focus">ACTIVITY</p>
+      <h2 id="focus-out"></h2>
+      <hr />
+      <p id="quote-out"></p>
+      <h2>Paint Studio</h2>
+      <canvas id="myCanvas"></canvas>
+      <!--Colour PaleTte-->
+
+      <div>
+        <button id="bigBtn">⚫</button>
+        <button id="smallBtn">●</button>
+
+        <button style="background-color: red" class="red" id="redBtn"></button>
+        <button
+          style="background-color: green"
+          class="green"
+          id="greenBtn"
+        ></button>
+        <button
+          class="blue"
+          style="background-color: blue"
+          id="blueBtn"
+        ></button>
+
+        <button
+          style="background-color: black"
+          class="black"
+          id="blackBtn"
+        ></button>
+        <button
+          class="white"
+          style="background-color: white"
+          id="whiteBtn"
+        ></button>
+        <p>
+          <input id="colorPicker" type="color" />
+        </p>
+      
+    </div>
+  </body>
+</html>
